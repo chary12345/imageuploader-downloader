@@ -15,6 +15,11 @@ import com.pojo.DatabaseFile;
 import com.response.Response;
 import com.service.DatabaseFileService;
 
+/**
+ * uri check post method : http://localhost:8090/uploadFile
+ * @author Prashanth
+ *
+ */
 @RestController
 public class FileUploadController {
 

@@ -17,6 +17,11 @@ import org.springframework.web.bind.annotation.RestController;
 import com.pojo.DatabaseFile;
 import com.service.DatabaseFileService;
 
+/**
+ * url to check Get Method : http://localhost:8090/downloadFile/fileName
+ * @author sridhar
+ *
+ */
 @RestController
 public class FileDownloadController {
 
